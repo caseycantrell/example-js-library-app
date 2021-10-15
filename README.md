@@ -1,4 +1,4 @@
-# tinkertown-app
+# example-js-library-app
 
 ## Project setup
 ```
