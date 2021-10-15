@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>{{ message }}</h1>
+    <h1>Audio Synthesis using code:</h1>
     <br />
     <button v-on:click="singleNote()">
       <h3><b>SINGLE NOTE</b></h3>
@@ -46,9 +46,7 @@ import * as Tone from "tone";
 
 export default {
   data: function () {
-    return {
-      message: "Audio Synthesis using code:",
-    };
+    return {};
   },
   created: function () {},
   methods: {
